@@ -3,3 +3,9 @@ body {
  font-family: 'gensin';
   src: url("https://hisero106516.github.io/atrie/fonts/GenShinGothic-Light.ttf");
 }
+h1{
+  background: linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
