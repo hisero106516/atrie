@@ -1,11 +1,55 @@
-body {
- text-align: center;
- font-family: 'gensin';
-  src: url("https://hisero106516.github.io/atrie/fonts/GenShinGothic-Light.ttf");
+/* Reset CSS */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
 }
-h1{
-  background: linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('https://i.imgur.com/04t5M2H.jpeg'); /* 背景画像を設定 */
+  background-size: cover; /* 背景画像を画面に合わせて表示 */
+  color: #fff; /* テキストカラーを白に指定 */
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* テキストの影を設定 */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ページ全体の高さを画面の高さに設定 */
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
 }

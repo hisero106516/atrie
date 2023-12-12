@@ -8,9 +8,77 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>hahahahahah<h1>
-<p>実質パソコン部部長<P>
-<p>LOVE TOGETHER<p>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Hiselo_website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hiselo!</h1>
+    <nav>
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">準備中...</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>あばばばば</h2>
+      <p>Hiseloと申します。このウェブサイトをご覧いただきありがとうございます。</p>
+<p>htmlとかcssとかむずすんぎ<p>
+    </section>
+    
+<style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* 50%の半透明な枠線 */
+  border-radius: 15px; /* 大きな角丸 */
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0); /* 完全に透明 */
+  box-shadow: 0px 0px 5px white; /* x0y0の白い影 */
+  backdrop-filter: blur(10px); /* 背景のブラーエフェクト */
+  transition: transform 0.2s, backdrop-filter 0.2s; /* アニメーション */
+}
+
+.button:hover {
+  transform: scale(1.05); /* 少し大きくなる */
+}
+
+.button:active {
+  background-color: rgba(255, 255, 255, 0.2); /* クリック時の背景色 */
+}
+</style>
+</head>
+<body>
+
+<button class="button" onclick="redirectToTwitter()">Twitterへ移動</button>
+
+<script>
+function redirectToTwitter() {
+  window.location.href = 'https://twitter.com/hisero106516';
+}
+</script>
+  
+  </main>
+
+  <footer>
+    <p>&copy; 2023 hiselo1006</p>
+  </footer>
+
+ 
+</body>
+</html>
 <!-- partial -->
   
 </body>
