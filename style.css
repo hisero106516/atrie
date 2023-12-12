@@ -1,6 +1,8 @@
 /* Reset CSS */
 body, h1, h2, p, ul {
   margin: 0;
+  font-family: 'gensin';
+  src: url('https://github.com/hisero106516/test/fonts/GenShinGothic-Light.ttf') format('ttf'), 
   padding: 0;
 }
 
